@@ -1,6 +1,12 @@
 jQuery-flyTo-Plugin
 ===================
-
-$('.source-object').flyTo({target:'#target-object', orderByDataKey:'string-data-value', callback:function(){
-	console.log('done')
-}});
+[![Donate](http://s-a.github.io/donate/donate.svg)](http://s-a.github.io/donate/)
+```javascript 
+$('.source-object').flyTo({
+	target:'#target-object', 
+	orderByDataKey:'string-data-value', 
+	callback:function(){
+		console.log('done')
+	}
+});
+```
